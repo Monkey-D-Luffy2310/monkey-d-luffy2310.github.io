@@ -1,0 +1,270 @@
+*{margin: 0; padding: 0;} 
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.menu{
+	font-family: 'Open Sans', sans-serif;	 
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+	background-size: cover;
+	background-position-y: -100px; 
+}
+.menu .bg-inverse.navbar{
+	background-color: transparent!important;
+}
+.menu .navbar .container .collapse a.menu-left{
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 21px;
+	font-weight: 900;
+}
+.menu .navbar .container .collapse .menu-left.maucam{
+	color: #e86025;
+}
+.menu .navbar .container .collapse .menu-right li a{
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 15px;
+	font-weight: 800;
+	padding: 20px 10px;
+}
+.menu .navbar .container .collapse .menu-right li a.black{
+	color: black;
+}
+.menu .navbar.mautrang{
+	background-color: white!important;
+	transition: 0.5s;
+    box-shadow: 0px 0px 20px #00000057;
+}
+.mautrang.navbar a.nav-link.black:hover{
+	color: #f4623a!important;
+}
+.mautrang.navbar a.nav-link.black:active{
+	color: #f4623a!important;
+}
+.mautrang.navbar a.nav-link.black.active{
+	color: #f4623a!important;
+}
+.menu .tieude{
+	padding-top: 12%;
+	color: white;
+}
+.tieude .td{
+	font-weight: 900;
+	font-size: 60px;
+	position: relative;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+.tieude .td:after{
+	content: '';
+	display: block;
+	width: 50px;
+	height: 3px;
+	background-color: #e86025;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -25px;
+}
+.tieude p{
+	color: rgba(255, 255, 255, 0.75);
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.tieude a.btn{
+	border-radius: 30px;
+	padding: 20px 40px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #e86025;
+}
+.tieude a.btn:hover{
+	background-color: #F24516;
+}
+.about.tieude{
+	background-color: #F4623A;
+	color: white;
+	padding-top: 100px;
+}
+.about.tieude .td{
+	font-size: 30px;
+	font-weight: 600;
+}
+.about.tieude p{
+	font-size: 18px;
+	color: #ffffff78;
+}
+.about.tieude .td:after{
+	background-color: white;
+}
+.about.tieude a.btn{
+	background-color: white;
+	color: black;
+	margin-bottom: 100px;	
+}
+.about.tieude a.btn:hover{
+	background-color: #E2E6EA;
+}
+.services .td{
+	margin-top: 100px;
+	font-size: 35px;
+	color: #000000c9;
+	font-weight: 600;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+	position: relative;
+}
+.services .td:after{
+	content: '';
+	display: block;
+	width: 50px;
+	height: 3px;
+	background-color: #e86025;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -25px;
+}
+.services i{
+	color: #e86025;
+	margin-bottom: 20px;
+}
+.services p{
+	color: #808080cf;
+	font-weight: 600;
+	padding-bottom: 100px;
+}
+.sp{
+	position: relative;
+}
+.portfolio 	.carousel-caption{
+	margin-bottom: 30px;
+	background-color: #df5a36c9;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top: 0;
+	opacity: 0;
+	transition: 0.25s;
+} 
+.portfolio 	.carousel-caption h6{
+	padding-top: 60px;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.5); 
+}
+.sp:hover .carousel-caption{
+	opacity: 1;
+}
+.sp:hover{
+	cursor: pointer;
+}
+.download{
+	background-color: #343A40;
+}
+.download h2{
+	color: white;
+	padding-top: 150px;
+	padding-bottom: 20px;	
+}
+.download .btn{
+	border-radius: 30px;
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 20px 40px;
+	margin-bottom: 100px;
+}
+.velocity {
+    background: #F5F5F5;
+    padding-bottom: 100px;
+}
+.velocity h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.velocity p {
+    font-size: 20px;
+    color: grey;
+} 
+.velocity div.tg{
+	font-size: 15px;
+	color: #ED7560;
+}
+.velocity div.tt{
+	font-size: 15px;
+}
+.velocity ol {
+	position: relative;
+	top: 200px;
+}
+.velocity ol li{
+	background-color: #E1E1E1;
+}
+.velocity ol li.active{
+	background-color: #F19180;
+}
+.velocity ol li:hover{
+	background-color: #F19180;
+}
+.footer{
+	background-image:url(https://themes.3rdwavemedia.com/velocity/bs5/1.0/assets/images/background/bg-footer-1.jpg);
+	height: 360px;
+	background-size: cover;
+}
+.footer h2{
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.footer p{
+	color: white;
+}
+.footer span.db{
+	color: #F19180;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer a{
+	font-weight: bold;
+}
+.nutlen i{
+	color: white;
+	background-color: #5d80a1;
+	padding: 10px 10px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	border-radius: 50%;
+	opacity: 0;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.nutlen.len i{
+	opacity: 1;
+}
+@media (max-width:576px){
+	.menu .navbar{
+		background-color:#000000d1!important;
+	}
+	.navbar-dark .navbar-brand{
+		text-align:center;
+	}
+	.navbar-dark .navbar-nav .nav-link{
+		text-align:center;
+		display:block!important;
+	}
+	.navbar-dark .navbar-nav .nav-link:hover{
+		background-color:#ff5e00;
+	}
+	.menu .tieude .td{
+		font-size:30px;
+	}
+	.menu .tieude p{
+		font-size:15px;
+	}
+	.menu .tieude a.btn{
+		font-size: 10px;
+		padding:20px 40px;
+	}
+}
