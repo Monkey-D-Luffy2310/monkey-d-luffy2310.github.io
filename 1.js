@@ -22,7 +22,7 @@
  		navs[i].onclick=function(){
 	 		var link= document.querySelector(this.getAttribute('href'));
 	 		window.scroll({
-	 			top: link.offsetTop - 79,
+	 			top: link.offsetTop - 78,
 	 			behavior: 'smooth'
 	 		});
 	 		event.preventDefault();
